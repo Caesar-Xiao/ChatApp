@@ -1,6 +1,12 @@
 <RCC>
     <qresource prefix="/">
-        <file>resource/default-user.jpeg</file>
-        <file>resource/background.jpg</file>
+        <file>images/background.jpg</file>
+        <file>images/default-user.jpeg</file>
+        <file>images/filefoder.png</file>
+        <file>images/picture.png</file>
+        <file>forms/chatwindow.ui</file>
+        <file>images/chat-list.png</file>
+        <file>images/contact.png</file>
+        <file>images/menu.png</file>
     </qresource>
 </RCC>

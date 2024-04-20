@@ -26,7 +26,7 @@
    <string>聊聊</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">#landingWindow {border-image:url(:/resource/background.jpg)}</string>
+   <string notr="true">#landingWindow {border-image:url(:/images/background.jpg);}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QFrame" name="frame_2">
@@ -81,7 +81,7 @@
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image:url(:/resource/default-user.jpeg);
+      <string notr="true">border-image:url(:/images/default-user.jpeg);
 border-radius:45px;</string>
      </property>
      <property name="frameShape">

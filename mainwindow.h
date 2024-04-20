@@ -21,8 +21,11 @@ private slots:
     void on_accountCombo_currentTextChanged(const QString &arg1);
     void on_passwordLine_textChanged(const QString &arg1);
 
+    void on_landingBtn_clicked();
+
 private:
-    Ui::landingWindow *ui;
+    Ui::landingWindow *landingWindow;
+    QWidget *chatWindow;
     QString account;
     QString password;
 };
