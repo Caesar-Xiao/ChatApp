@@ -23,10 +23,16 @@ private slots:
 
     void on_landingBtn_clicked();
 
+    void on_registerBtn_clicked();
+
 private:
     Ui::landingWindow *landingWindow;
     QWidget *chatWindow;
+    QWidget *registerWindow;
     QString account;
     QString password;
+
+    QWidget* loadForm(QString formName);
+    void registerCheck();
 };
 #endif // MAINWINDOW_H

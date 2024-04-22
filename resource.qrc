@@ -8,5 +8,6 @@
         <file>images/chat-list.png</file>
         <file>images/contact.png</file>
         <file>images/menu.png</file>
+        <file>forms/registerwindow.ui</file>
     </qresource>
 </RCC>

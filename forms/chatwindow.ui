@@ -98,6 +98,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="text">
       <string>发送</string>
      </property>
@@ -133,6 +136,9 @@
        <height>31</height>
       </rect>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-image:url(:/images/filefoder.png)</string>
      </property>
@@ -148,6 +154,9 @@
        <width>31</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="styleSheet">
       <string notr="true">border-image:url(:/images/picture.png)</string>
@@ -181,6 +190,9 @@
        <height>31</height>
       </rect>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-image:url(:/images/chat-list.png)</string>
      </property>
@@ -197,6 +209,9 @@
        <height>31</height>
       </rect>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-image:url(:/images/contact.png)</string>
      </property>
@@ -212,6 +227,9 @@
        <width>31</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="styleSheet">
       <string notr="true">border-image:url(:/images/menu.png)</string>
