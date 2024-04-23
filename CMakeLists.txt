@@ -25,8 +25,13 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
 
-
         resource.qrc
+        formcontroler.h
+        formcontroler.cpp
+        chatform.h
+        chartform.cpp
+        registerform.h
+        registerform.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET QT-Test APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

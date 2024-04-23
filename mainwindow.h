@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "chatform.h"
+#include "registerform.h"
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -27,12 +29,11 @@ private slots:
 
 private:
     Ui::landingWindow *landingWindow;
-    QWidget *chatWindow;
-    QWidget *registerWindow;
+
+    ChartForm chatForm;
+    RegisterForm registerForm;
+
     QString account;
     QString password;
-
-    QWidget* loadForm(QString formName);
-    void registerCheck();
 };
 #endif // MAINWINDOW_H
