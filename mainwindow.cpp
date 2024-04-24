@@ -2,8 +2,6 @@
 #include "./ui_mainwindow.h"
 #include <QTextStream>
 
-// #include <QSqlDatabase>
-// #include <QSqlQuery>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -11,12 +9,16 @@ MainWindow::MainWindow(QWidget *parent)
 {
     landingWindow->setupUi(this);
 
+    // forms
     QString formName="chatform";
     chatForm.loadForm(formName,this);
 
     formName="registerform";
     registerForm.loadForm(formName,this);
     registerForm.setMainWindow(this);
+
+    // database
+    sqlHelper.connect();
 }
 
 MainWindow::~MainWindow()

@@ -3,6 +3,7 @@
 
 #include "chatform.h"
 #include "registerform.h"
+#include "mysqlhelper.h"
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -32,6 +33,7 @@ private:
 
     ChartForm chatForm;
     RegisterForm registerForm;
+    MySqlHelper sqlHelper;
 
     QString account;
     QString password;

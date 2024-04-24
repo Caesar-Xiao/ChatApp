@@ -10,7 +10,9 @@ class RegisterForm: public FormControler
 public:
     RegisterForm();
 
+
     void setMainWindow(MainWindow *mWindow);
+
 private slots:
     void on_registerBtn_clicked();
 

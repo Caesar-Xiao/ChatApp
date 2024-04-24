@@ -2,14 +2,15 @@
 #define FORMCONTROLER_H
 
 #include <QWidget>
+#include <QPushButton>
 
-class MainWindow;
 class FormControler
 {
 public:
     FormControler();
     ~FormControler();
 
+    QPushButton *registerBtn;
     void loadForm(QString formName, QWidget *mainWindow);
     void show();
     void close();

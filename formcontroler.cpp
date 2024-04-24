@@ -12,9 +12,7 @@ FormControler::~FormControler(){
 void FormControler::loadForm(QString formName, QWidget *mainWindow)
 {
     QUiLoader uiLoader;
-
-    QString fileName=":/forms/%1.ui";
-    QFile file(fileName.arg(formName));
+    QFile file(QString(":/forms/%1.ui").arg(formName));
 
     file.open(QFile::ReadOnly);
     form=uiLoader.load(&file,mainWindow);
