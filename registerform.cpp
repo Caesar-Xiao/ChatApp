@@ -9,11 +9,15 @@ RegisterForm::RegisterForm():FormControler(){}
 void RegisterForm::setMainWindow(MainWindow *mWindow)
 {
     mainWindow=mWindow;
+    setEvents();
 }
 
-void RegisterForm::on_registerBtn_clicked(){
-    mainWindow->show();
-    form->close();
+void RegisterForm::setEvents(){
+    registerBtn=form->findChild<QPushButton*>("registerBtn");
+
+    QObject::connect(registerBtn,&QPushButton::clicked,mainWindow,
+                     [this](){
+                         this->mainWindow->show();
+                         this->form->close();
+                     });
 }
-
-

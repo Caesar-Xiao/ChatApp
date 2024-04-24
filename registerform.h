@@ -10,14 +10,13 @@ class RegisterForm: public FormControler
 public:
     RegisterForm();
 
-
     void setMainWindow(MainWindow *mWindow);
-
-private slots:
-    void on_registerBtn_clicked();
 
 private:
     MainWindow *mainWindow;
+    QPushButton *registerBtn;
+
+    void setEvents();
 };
 
 #endif // REGISTERFORM_H

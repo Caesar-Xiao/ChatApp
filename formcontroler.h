@@ -10,7 +10,6 @@ public:
     FormControler();
     ~FormControler();
 
-    QPushButton *registerBtn;
     void loadForm(QString formName, QWidget *mainWindow);
     void show();
     void close();

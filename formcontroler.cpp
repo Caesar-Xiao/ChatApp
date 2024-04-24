@@ -17,8 +17,6 @@ void FormControler::loadForm(QString formName, QWidget *mainWindow)
     file.open(QFile::ReadOnly);
     form=uiLoader.load(&file,mainWindow);
     file.close();
-
-    QMetaObject::connectSlotsByName(form);
 }
 
 void FormControler::show()
