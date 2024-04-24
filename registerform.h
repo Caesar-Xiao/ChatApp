@@ -17,6 +17,7 @@ private:
     QPushButton *registerBtn;
 
     void setEvents();
+    void registerEvent();
 };
 
 #endif // REGISTERFORM_H
