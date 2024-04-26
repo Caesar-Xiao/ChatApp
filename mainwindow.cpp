@@ -28,13 +28,13 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_accountCombo_currentTextChanged(const QString &arg1)
 {
-    account=arg1;
+    account=arg1.trimmed();
 }
 
 
 void MainWindow::on_passwordLine_textChanged(const QString &arg1)
 {
-    password=arg1;
+    password=arg1.trimmed();
 }
 
 

@@ -3,6 +3,7 @@
 
 #include "formcontroler.h"
 #include <QPushButton>
+#include <QLineEdit>
 
 class MainWindow;
 class RegisterForm: public FormControler
@@ -15,9 +16,17 @@ public:
 private:
     MainWindow *mainWindow;
     QPushButton *registerBtn;
+    QLineEdit *accountLine;
+    QLineEdit *passwordLine;
+    QLineEdit *checkPasswordLine;
+
+    QString account;
+    QString password;
+    QString passwordChecked;
 
     void setEvents();
     void registerEvent();
+    bool setWarning();
 };
 
 #endif // REGISTERFORM_H
