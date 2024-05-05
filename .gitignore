@@ -12,6 +12,7 @@
 
 # 排除构建目录
 build/
+**/.vs/
 
 # Qt-es
 object_script.*.Release
